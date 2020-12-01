@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AdventOfCode.One/1.0.0": {
+        "dependencies": {
+          "AdventOfCode.Common": "1.0.0"
+        },
+        "runtime": {
+          "AdventOfCode.One.dll": {}
+        }
+      },
+      "AdventOfCode.Common/1.0.0": {
+        "runtime": {
+          "AdventOfCode.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdventOfCode.One/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdventOfCode.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
