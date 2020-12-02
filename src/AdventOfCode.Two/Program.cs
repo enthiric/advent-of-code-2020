@@ -79,10 +79,10 @@ namespace AdventOfCode.Two
         {
             var code = new Code();
 
-            var a = Measure.Duration(() => code.Part1());
+            var a = code.Part1();
             Console.WriteLine(a);
 
-            var b = Measure.Duration(() => code.Part2());
+            var b = code.Part2();
             Console.WriteLine(b);
         }
     }
