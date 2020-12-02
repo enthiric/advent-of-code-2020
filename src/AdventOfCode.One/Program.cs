@@ -17,7 +17,7 @@ namespace AdventOfCode.One
                 .Select(int.Parse).ToList();
         }
 
-        public int DayOne_Part1()
+        public int Part1()
         {
             foreach (var a in _input)
             {
@@ -33,7 +33,7 @@ namespace AdventOfCode.One
             return 0;
         }
 
-        public int DayOne_Part2()
+        public int Part2()
         {
             foreach (var a in _input)
             {
@@ -59,9 +59,9 @@ namespace AdventOfCode.One
         {
             var code = new Code();
 
-            var a = Measure.Duration(() => code.DayOne_Part1());
+            var a = Measure.Duration(() => code.Part1());
             Console.WriteLine(a);
-            var b = Measure.Duration(() => code.DayOne_Part2());
+            var b = Measure.Duration(() => code.Part2());
             Console.WriteLine(b);
         }
     }

@@ -1,0 +1,14 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Two
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Two.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Two.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Two.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Two.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Two.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Common.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/bin/Debug/netcoreapp3.1/AdventOfCode.Common.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/Debug/netcoreapp3.1/AdventOfCode.Two.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/Debug/netcoreapp3.1/AdventOfCode.Two.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/Debug/netcoreapp3.1/AdventOfCode.Two.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/Debug/netcoreapp3.1/AdventOfCode.Two.csproj.CopyComplete
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/Debug/netcoreapp3.1/AdventOfCode.Two.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/Debug/netcoreapp3.1/AdventOfCode.Two.pdb
