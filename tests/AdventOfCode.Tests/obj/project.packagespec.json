@@ -18,6 +18,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
+          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj": {
+            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj"
+          },
           "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj": {
             "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj"
           }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using AdventOfCode.Common;
 
 namespace AdventOfCode.Two
 {
@@ -19,7 +18,6 @@ namespace AdventOfCode.Two
         {
             _input = input;
         }
-
 
         public int Part1()
         {

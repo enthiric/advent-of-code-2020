@@ -97,3 +97,6 @@
 /Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/obj/Debug/netcoreapp3.1/AdventOfCode.Tests.csproj.CopyComplete
 /Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/obj/Debug/netcoreapp3.1/AdventOfCode.Tests.dll
 /Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/obj/Debug/netcoreapp3.1/AdventOfCode.Tests.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Three
+/Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Three.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Three.pdb

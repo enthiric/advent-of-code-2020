@@ -1,0 +1,11 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/bin/Debug/netcoreapp3.1/AdventOfCode.Three
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/bin/Debug/netcoreapp3.1/AdventOfCode.Three.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/bin/Debug/netcoreapp3.1/AdventOfCode.Three.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/bin/Debug/netcoreapp3.1/AdventOfCode.Three.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/bin/Debug/netcoreapp3.1/AdventOfCode.Three.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/bin/Debug/netcoreapp3.1/AdventOfCode.Three.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/obj/Debug/netcoreapp3.1/AdventOfCode.Three.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/obj/Debug/netcoreapp3.1/AdventOfCode.Three.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/obj/Debug/netcoreapp3.1/AdventOfCode.Three.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/obj/Debug/netcoreapp3.1/AdventOfCode.Three.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/obj/Debug/netcoreapp3.1/AdventOfCode.Three.pdb
