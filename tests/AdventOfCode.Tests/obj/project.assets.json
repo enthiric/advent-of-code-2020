@@ -1973,6 +1973,16 @@
           "bin/placeholder/AdventOfCode.Common.dll": {}
         }
       },
+      "AdventOfCode.Four/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AdventOfCode.Four.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdventOfCode.Four.dll": {}
+        }
+      },
       "AdventOfCode.Three/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -6543,6 +6553,11 @@
       "path": "../../src/AdventOfCode.Common/AdventOfCode.Common.csproj",
       "msbuildProject": "../../src/AdventOfCode.Common/AdventOfCode.Common.csproj"
     },
+    "AdventOfCode.Four/1.0.0": {
+      "type": "project",
+      "path": "../../src/AdventOfCode.Four/AdventOfCode.Four.csproj",
+      "msbuildProject": "../../src/AdventOfCode.Four/AdventOfCode.Four.csproj"
+    },
     "AdventOfCode.Three/1.0.0": {
       "type": "project",
       "path": "../../src/AdventOfCode.Three/AdventOfCode.Three.csproj",
@@ -6556,6 +6571,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AdventOfCode.Four >= 1.0.0",
       "AdventOfCode.Three >= 1.0.0",
       "AdventOfCode.Two >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
@@ -6592,6 +6608,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj": {
+              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj"
+            },
             "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj": {
               "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj"
             },

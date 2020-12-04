@@ -1,0 +1,11 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/bin/Debug/netcoreapp3.1/AdventOfCode.Four
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/bin/Debug/netcoreapp3.1/AdventOfCode.Four.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/bin/Debug/netcoreapp3.1/AdventOfCode.Four.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/bin/Debug/netcoreapp3.1/AdventOfCode.Four.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/bin/Debug/netcoreapp3.1/AdventOfCode.Four.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/bin/Debug/netcoreapp3.1/AdventOfCode.Four.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/obj/Debug/netcoreapp3.1/AdventOfCode.Four.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/obj/Debug/netcoreapp3.1/AdventOfCode.Four.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/obj/Debug/netcoreapp3.1/AdventOfCode.Four.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/obj/Debug/netcoreapp3.1/AdventOfCode.Four.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/obj/Debug/netcoreapp3.1/AdventOfCode.Four.pdb

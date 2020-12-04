@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "AdventOfCode.Tests/1.0.0": {
         "dependencies": {
+          "AdventOfCode.Four": "1.0.0",
           "AdventOfCode.Three": "1.0.0",
           "AdventOfCode.Two": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.2.0",
@@ -1349,6 +1350,11 @@
           "AdventOfCode.Common.dll": {}
         }
       },
+      "AdventOfCode.Four/1.0.0": {
+        "runtime": {
+          "AdventOfCode.Four.dll": {}
+        }
+      },
       "AdventOfCode.Three/1.0.0": {
         "runtime": {
           "AdventOfCode.Three.dll": {}
@@ -2064,6 +2070,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
     },
     "AdventOfCode.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdventOfCode.Four/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
