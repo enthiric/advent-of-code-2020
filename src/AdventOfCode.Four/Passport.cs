@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Text.RegularExpressions;
 
 namespace AdventOfCode.Four
@@ -105,9 +104,5 @@ namespace AdventOfCode.Four
 
             return passport;
         }
-    }
-
-    public class Square
-    {
     }
 }
