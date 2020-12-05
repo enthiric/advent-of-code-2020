@@ -103,3 +103,6 @@
 /Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Four
 /Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Four.dll
 /Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Four.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Five
+/Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Five.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/tests/AdventOfCode.Tests/bin/Debug/netcoreapp3.1/AdventOfCode.Five.pdb

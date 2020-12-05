@@ -1,0 +1,11 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/bin/Debug/netcoreapp3.1/AdventOfCode.Five
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/bin/Debug/netcoreapp3.1/AdventOfCode.Five.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/bin/Debug/netcoreapp3.1/AdventOfCode.Five.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/bin/Debug/netcoreapp3.1/AdventOfCode.Five.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/bin/Debug/netcoreapp3.1/AdventOfCode.Five.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/bin/Debug/netcoreapp3.1/AdventOfCode.Five.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/obj/Debug/netcoreapp3.1/AdventOfCode.Five.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/obj/Debug/netcoreapp3.1/AdventOfCode.Five.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/obj/Debug/netcoreapp3.1/AdventOfCode.Five.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/obj/Debug/netcoreapp3.1/AdventOfCode.Five.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/obj/Debug/netcoreapp3.1/AdventOfCode.Five.pdb
