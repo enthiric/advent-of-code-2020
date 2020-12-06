@@ -13,7 +13,7 @@ namespace AdventOfCode.Five
 
         public int Part2(string[] input)
         {
-            var passes = Scanner.ScanAll(input).Scanned.OrderBy(s => s.GetSeat());
+            var passes = Scanner.ScanAll(input).Scanned.OrderBy(s => s.GetSeat()).ToArray();
             var last = passes.First();
             foreach (var pass in passes.Skip(1))
             {

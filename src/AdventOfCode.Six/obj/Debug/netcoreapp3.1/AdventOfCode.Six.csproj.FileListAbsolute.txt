@@ -1,0 +1,13 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/AdventOfCode.Six
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/AdventOfCode.Six.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/AdventOfCode.Six.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/AdventOfCode.Six.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/AdventOfCode.Six.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/AdventOfCode.Six.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/obj/Debug/netcoreapp3.1/AdventOfCode.Six.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/obj/Debug/netcoreapp3.1/AdventOfCode.Six.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/obj/Debug/netcoreapp3.1/AdventOfCode.Six.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/obj/Debug/netcoreapp3.1/AdventOfCode.Six.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/obj/Debug/netcoreapp3.1/AdventOfCode.Six.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/bin/Debug/netcoreapp3.1/MoreLinq.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Six/obj/Debug/netcoreapp3.1/AdventOfCode.Six.csproj.CopyComplete
