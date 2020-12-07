@@ -1,0 +1,11 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/bin/Debug/netcoreapp3.1/AdventOfCode.Seven
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/bin/Debug/netcoreapp3.1/AdventOfCode.Seven.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/bin/Debug/netcoreapp3.1/AdventOfCode.Seven.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/bin/Debug/netcoreapp3.1/AdventOfCode.Seven.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/bin/Debug/netcoreapp3.1/AdventOfCode.Seven.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/bin/Debug/netcoreapp3.1/AdventOfCode.Seven.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/obj/Debug/netcoreapp3.1/AdventOfCode.Seven.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/obj/Debug/netcoreapp3.1/AdventOfCode.Seven.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/obj/Debug/netcoreapp3.1/AdventOfCode.Seven.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/obj/Debug/netcoreapp3.1/AdventOfCode.Seven.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Seven/obj/Debug/netcoreapp3.1/AdventOfCode.Seven.pdb
