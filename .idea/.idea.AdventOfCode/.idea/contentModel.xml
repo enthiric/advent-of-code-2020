@@ -70,6 +70,7 @@
       </e>
       <e p="src/AdventOfCode.Seven" t="IncludeRecursive">
         <e p="AdventOfCode.Seven.csproj" t="IncludeRecursive" />
+        <e p="Bag.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="input.txt" t="Include" />
         <e p="obj" t="ExcludeRecursive">
