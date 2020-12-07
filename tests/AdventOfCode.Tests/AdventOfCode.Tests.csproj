@@ -14,10 +14,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\AdventOfCode.Five\AdventOfCode.Five.csproj" />
-      <ProjectReference Include="..\..\src\AdventOfCode.Four\AdventOfCode.Four.csproj" />
-      <ProjectReference Include="..\..\src\AdventOfCode.Three\AdventOfCode.Three.csproj" />
-      <ProjectReference Include="..\..\src\AdventOfCode.Two\AdventOfCode.Two.csproj" />
+      <ProjectReference Include="..\..\src\AdventOfCode.Day2\AdventOfCode.Day2.csproj" />
+      <ProjectReference Include="..\..\src\AdventOfCode.Day3\AdventOfCode.Day3.csproj" />
+      <ProjectReference Include="..\..\src\AdventOfCode.Day4\AdventOfCode.Day4.csproj" />
+      <ProjectReference Include="..\..\src\AdventOfCode.Day5\AdventOfCode.Day5.csproj" />
     </ItemGroup>
 
 </Project>

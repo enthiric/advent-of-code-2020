@@ -18,17 +18,17 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj": {
-            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj"
+          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj": {
+            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj"
           },
-          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj": {
-            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj"
+          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj": {
+            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj"
           },
-          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj": {
-            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj"
+          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj": {
+            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj"
           },
-          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj": {
-            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj"
+          "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj": {
+            "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj"
           }
         }
       }

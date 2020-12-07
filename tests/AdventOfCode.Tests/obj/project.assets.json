@@ -1973,47 +1973,47 @@
           "bin/placeholder/AdventOfCode.Common.dll": {}
         }
       },
-      "AdventOfCode.Five/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/AdventOfCode.Five.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdventOfCode.Five.dll": {}
-        }
-      },
-      "AdventOfCode.Four/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/AdventOfCode.Four.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdventOfCode.Four.dll": {}
-        }
-      },
-      "AdventOfCode.Three/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/AdventOfCode.Three.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AdventOfCode.Three.dll": {}
-        }
-      },
-      "AdventOfCode.Two/1.0.0": {
+      "AdventOfCode.Day2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AdventOfCode.Common": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/AdventOfCode.Two.dll": {}
+          "bin/placeholder/AdventOfCode.Day2.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AdventOfCode.Two.dll": {}
+          "bin/placeholder/AdventOfCode.Day2.dll": {}
+        }
+      },
+      "AdventOfCode.Day3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AdventOfCode.Day3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdventOfCode.Day3.dll": {}
+        }
+      },
+      "AdventOfCode.Day4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AdventOfCode.Day4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdventOfCode.Day4.dll": {}
+        }
+      },
+      "AdventOfCode.Day5/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AdventOfCode.Day5.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdventOfCode.Day5.dll": {}
         }
       }
     }
@@ -6563,33 +6563,33 @@
       "path": "../../src/AdventOfCode.Common/AdventOfCode.Common.csproj",
       "msbuildProject": "../../src/AdventOfCode.Common/AdventOfCode.Common.csproj"
     },
-    "AdventOfCode.Five/1.0.0": {
+    "AdventOfCode.Day2/1.0.0": {
       "type": "project",
-      "path": "../../src/AdventOfCode.Five/AdventOfCode.Five.csproj",
-      "msbuildProject": "../../src/AdventOfCode.Five/AdventOfCode.Five.csproj"
+      "path": "../../src/AdventOfCode.Day2/AdventOfCode.Day2.csproj",
+      "msbuildProject": "../../src/AdventOfCode.Day2/AdventOfCode.Day2.csproj"
     },
-    "AdventOfCode.Four/1.0.0": {
+    "AdventOfCode.Day3/1.0.0": {
       "type": "project",
-      "path": "../../src/AdventOfCode.Four/AdventOfCode.Four.csproj",
-      "msbuildProject": "../../src/AdventOfCode.Four/AdventOfCode.Four.csproj"
+      "path": "../../src/AdventOfCode.Day3/AdventOfCode.Day3.csproj",
+      "msbuildProject": "../../src/AdventOfCode.Day3/AdventOfCode.Day3.csproj"
     },
-    "AdventOfCode.Three/1.0.0": {
+    "AdventOfCode.Day4/1.0.0": {
       "type": "project",
-      "path": "../../src/AdventOfCode.Three/AdventOfCode.Three.csproj",
-      "msbuildProject": "../../src/AdventOfCode.Three/AdventOfCode.Three.csproj"
+      "path": "../../src/AdventOfCode.Day4/AdventOfCode.Day4.csproj",
+      "msbuildProject": "../../src/AdventOfCode.Day4/AdventOfCode.Day4.csproj"
     },
-    "AdventOfCode.Two/1.0.0": {
+    "AdventOfCode.Day5/1.0.0": {
       "type": "project",
-      "path": "../../src/AdventOfCode.Two/AdventOfCode.Two.csproj",
-      "msbuildProject": "../../src/AdventOfCode.Two/AdventOfCode.Two.csproj"
+      "path": "../../src/AdventOfCode.Day5/AdventOfCode.Day5.csproj",
+      "msbuildProject": "../../src/AdventOfCode.Day5/AdventOfCode.Day5.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "AdventOfCode.Five >= 1.0.0",
-      "AdventOfCode.Four >= 1.0.0",
-      "AdventOfCode.Three >= 1.0.0",
-      "AdventOfCode.Two >= 1.0.0",
+      "AdventOfCode.Day2 >= 1.0.0",
+      "AdventOfCode.Day3 >= 1.0.0",
+      "AdventOfCode.Day4 >= 1.0.0",
+      "AdventOfCode.Day5 >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
@@ -6624,17 +6624,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj": {
-              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj"
+            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj": {
+              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj"
             },
-            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj": {
-              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj"
+            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj": {
+              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj"
             },
-            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj": {
-              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj"
+            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj": {
+              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj"
             },
-            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj": {
-              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj"
+            "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj": {
+              "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj"
             }
           }
         }

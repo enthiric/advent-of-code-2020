@@ -1,4 +1,4 @@
-using AdventOfCode.Three;
+using AdventOfCode.Day3;
 using Xunit;
 
 namespace AdventOfCode.Tests.DayThree

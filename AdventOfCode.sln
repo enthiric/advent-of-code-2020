@@ -1,22 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.One", "src\AdventOfCode.One\AdventOfCode.One.csproj", "{633F3F59-4E1B-44FD-A717-71AE3D35B811}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day1", "src\AdventOfCode.Day1\AdventOfCode.Day1.csproj", "{633F3F59-4E1B-44FD-A717-71AE3D35B811}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Common", "src\AdventOfCode.Common\AdventOfCode.Common.csproj", "{B26AE662-0013-466B-A4F8-CD88724FE84F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Two", "src\AdventOfCode.Two\AdventOfCode.Two.csproj", "{F19226B3-7771-47AC-89A7-84A73E1DBCF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day2", "src\AdventOfCode.Day2\AdventOfCode.Day2.csproj", "{F19226B3-7771-47AC-89A7-84A73E1DBCF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Tests", "tests\AdventOfCode.Tests\AdventOfCode.Tests.csproj", "{4F81023D-7449-44C4-B93F-A764538965F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Three", "src\AdventOfCode.Three\AdventOfCode.Three.csproj", "{6642CE04-097C-447D-9C83-206BF497F94E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day3", "src\AdventOfCode.Day3\AdventOfCode.Day3.csproj", "{6642CE04-097C-447D-9C83-206BF497F94E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Four", "src\AdventOfCode.Four\AdventOfCode.Four.csproj", "{15BD4B3B-E2EF-4A6B-80BC-141F813A6C45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day4", "src\AdventOfCode.Day4\AdventOfCode.Day4.csproj", "{15BD4B3B-E2EF-4A6B-80BC-141F813A6C45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Five", "src\AdventOfCode.Five\AdventOfCode.Five.csproj", "{E32C8D19-82E6-468B-8B87-0A234D0EA9B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day5", "src\AdventOfCode.Day5\AdventOfCode.Day5.csproj", "{E32C8D19-82E6-468B-8B87-0A234D0EA9B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Six", "src\AdventOfCode.Six\AdventOfCode.Six.csproj", "{A3918BA2-0651-4FBB-8578-976AB4467CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day6", "src\AdventOfCode.Day6\AdventOfCode.Day6.csproj", "{A3918BA2-0651-4FBB-8578-976AB4467CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Seven", "src\AdventOfCode.Seven\AdventOfCode.Seven.csproj", "{240D9561-D68B-433E-9424-C0567B44DE4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day7", "src\AdventOfCode.Day7\AdventOfCode.Day7.csproj", "{240D9561-D68B-433E-9424-C0567B44DE4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using AdventOfCode.Two;
+using AdventOfCode.Day2;
 using Xunit;
 
 namespace AdventOfCode.Tests.DayTwo

@@ -57,173 +57,14 @@
         }
       }
     },
-    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj": {
+    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj",
-        "projectName": "AdventOfCode.Five",
-        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj",
+        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj",
+        "projectName": "AdventOfCode.Day2",
+        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj",
         "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
-        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/jurgenheeffer/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj",
-        "projectName": "AdventOfCode.Four",
-        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj",
-        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
-        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/jurgenheeffer/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj",
-        "projectName": "AdventOfCode.Three",
-        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj",
-        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
-        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/Users/jurgenheeffer/.config/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj",
-        "projectName": "AdventOfCode.Two",
-        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj",
-        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
-        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/obj/",
+        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -244,6 +85,165 @@
                 "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Common/AdventOfCode.Common.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj",
+        "projectName": "AdventOfCode.Day3",
+        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj",
+        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
+        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jurgenheeffer/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj",
+        "projectName": "AdventOfCode.Day4",
+        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj",
+        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
+        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jurgenheeffer/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj",
+        "projectName": "AdventOfCode.Day5",
+        "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj",
+        "packagesPath": "/Users/jurgenheeffer/.nuget/packages/",
+        "outputPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jurgenheeffer/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -297,17 +297,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj": {
-                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Five/AdventOfCode.Five.csproj"
+              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj": {
+                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day2/AdventOfCode.Day2.csproj"
               },
-              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj": {
-                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Four/AdventOfCode.Four.csproj"
+              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj": {
+                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day3/AdventOfCode.Day3.csproj"
               },
-              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj": {
-                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Three/AdventOfCode.Three.csproj"
+              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj": {
+                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day4/AdventOfCode.Day4.csproj"
               },
-              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj": {
-                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Two/AdventOfCode.Two.csproj"
+              "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj": {
+                "projectPath": "/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day5/AdventOfCode.Day5.csproj"
               }
             }
           }
