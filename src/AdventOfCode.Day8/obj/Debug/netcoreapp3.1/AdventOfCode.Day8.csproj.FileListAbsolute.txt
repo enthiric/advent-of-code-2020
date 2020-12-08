@@ -1,0 +1,13 @@
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/AdventOfCode.Day8
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/AdventOfCode.Day8.deps.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/AdventOfCode.Day8.runtimeconfig.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/AdventOfCode.Day8.runtimeconfig.dev.json
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/AdventOfCode.Day8.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/AdventOfCode.Day8.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.csprojAssemblyReference.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.AssemblyInfoInputs.cache
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.AssemblyInfo.cs
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.pdb
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/bin/Debug/netcoreapp3.1/MoreLinq.dll
+/Users/jurgenheeffer/Projects/AdventOfCode/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.csproj.CopyComplete
