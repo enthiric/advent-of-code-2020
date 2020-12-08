@@ -127,6 +127,7 @@
       <e p="src/AdventOfCode.Day8" t="IncludeRecursive">
         <e p="AdventOfCode.Day8.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="BootCode.cs" t="Include" />
         <e p="input-2.txt" t="Include" />
         <e p="input.txt" t="Include" />
         <e p="Instruction.cs" t="Include" />
@@ -137,6 +138,7 @@
             </e>
           </e>
         </e>
+        <e p="Operation.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="tests/AdventOfCode.Tests" t="IncludeRecursive">
