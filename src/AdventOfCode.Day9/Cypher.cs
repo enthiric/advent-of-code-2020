@@ -5,72 +5,68 @@ namespace AdventOfCode.Day9
 {
     public class Cypher
     {
-        public int Preamble;
-        public long[] Numbers;
-
-        public long Part2() 
-        {
-            var find = Part1();
-            for (var i = 0; i < Numbers.Length; i++)
-            {
-                long x = Numbers[i];
-                var used = new List<long>()
-                {
-                    Numbers[i]
-                };
-                foreach (var n in Numbers.Skip(i+1))
-                {
-                    x += n;
-                    used.Add(n);
-                    if (x == find)
-                    {
-                        return used.Min() + used.Max();
-                    }
-                    
-                    if (x > find)
-                    {
-                        break;
-                    }
-                }
-            }
-
-            return 0;
-        }
-
-        public long Part1() // 1492208709
-        {
-            var start = 0;
-            for (var i = Preamble; i < Numbers.Length; i++)
-            {
-                var toSum = Numbers.Skip(start).Take(Preamble).ToArray();
-                start++;
-
-                var isValid = false;
-                var shouldSum = Numbers[i];
-                foreach (var a in toSum)
-                {
-                    foreach (var b in toSum)
-                    {
-                        if (a + b == shouldSum)
-                        {
-                            isValid = true;
-                        }
-                    }
-                }
-
-                if (!isValid)
-                {
-                    return shouldSum;
-                }
-            }
-
-            return 0;
-        }
+        private readonly int _preamble;
+        private readonly long[] _numbers;
 
         public Cypher(long[] input, int preamble = 25)
         {
-            Preamble = preamble;
-            Numbers = input;
+            _preamble = preamble;
+            _numbers = input;
+        }
+
+        public long Part1()
+        {
+            var start = 0;
+            for (var i = _preamble; i < _numbers.Length; i++)
+            {
+                start++;
+
+                if (FindMatch(_numbers.Skip(start).Take(_preamble).ToArray(), _numbers[i]))
+                {
+                    return _numbers[i];
+                }
+            }
+
+            return 0;
+        }
+
+        public long Part2()
+        {
+            var find = Part1();
+            for (var i = 0; i < _numbers.Length; i++)
+            {
+                var s = _numbers[i];
+                var used = new List<long>
+                {
+                    s
+                };
+                foreach (var n in _numbers.Skip(i + 1))
+                {
+                    s += n;
+                    used.Add(n);
+
+                    if (s > find) break;
+                    if (s == find) return used.Min() + used.Max();
+                }
+            }
+
+            return 0;
+        }
+
+        private static bool FindMatch(long[] numbers, long find)
+        {
+            foreach (var a in numbers)
+            {
+                foreach (var b in numbers)
+                {
+                    if (a + b == find)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
         }
     }
 }
