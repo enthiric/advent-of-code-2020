@@ -88,15 +88,14 @@ namespace AdventOfCode.Day11
                                 {
                                     break;
                                 }
-
-                                var l = _points[y];
+                                
                                 x += traversal.X;
                                 if (x < 0 || x >= line.Length)
                                 {
                                     break;
                                 }
 
-                                var p = l[x];
+                                var p = _points[y][x];
                                 if (p.IsSeatOccupied())
                                 {
                                     adj++;
