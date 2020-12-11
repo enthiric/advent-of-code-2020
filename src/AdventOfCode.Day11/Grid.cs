@@ -3,49 +3,54 @@ using System.Linq;
 
 namespace AdventOfCode.Day11
 {
-    // public class Point
-    // {
-    //     public bool IsSeat;
-    //     public bool Occupied;
-    //
-    //     public override string ToString()
-    //     {
-    //         if (!IsSeat) return ".";
-    //         return Occupied ? "#" : "L";
-    //     }
-    // }
+    public struct Point
+    {
+        public bool IsSeat;
+        public bool Occupied;
 
-    public class TraverselCombination
+        public bool IsSeatOccupied()
+        {
+            return IsSeat && Occupied;
+        }
+
+        public override string ToString()
+        {
+            if (!IsSeat) return ".";
+            return Occupied ? "#" : "L";
+        }
+    }
+
+    public class Traversal
     {
         public int X;
         public int Y;
 
-        public TraverselCombination(int x, int y)
+        public Traversal(int x, int y)
         {
             X = x;
             Y = y;
         }
     }
 
-    public class Grid
+    public class WaitingArea
     {
-        public string[][] Points;
+        private Point[][] _points;
 
-        public TraverselCombination[] TraverselCombinations =
+        private Traversal[] _traversalCombinations =
         {
-            new TraverselCombination(-1, -1),
-            new TraverselCombination(-1, 1),
-            new TraverselCombination(-1, 0),
-            new TraverselCombination(1, -1),
-            new TraverselCombination(0, -1),
-            new TraverselCombination(0, 1),
-            new TraverselCombination(1, 1),
-            new TraverselCombination(1, 0),
+            new Traversal(-1, -1),
+            new Traversal(-1, 1),
+            new Traversal(-1, 0),
+            new Traversal(1, -1),
+            new Traversal(0, -1),
+            new Traversal(0, 1),
+            new Traversal(1, 1),
+            new Traversal(1, 0),
         };
 
-        public void Print()
+        private void MapWaitingArea()
         {
-            foreach (var line in Points)
+            foreach (var line in _points)
             {
                 Console.WriteLine(string.Join("", line.Select(s => s.ToString()).ToArray()));
             }
@@ -53,53 +58,52 @@ namespace AdventOfCode.Day11
             Console.WriteLine("----------");
         }
 
-        public int Run_2()
+        public int PredictOccupiedSeats(bool onlyImmediatelyAdjacent = true, int minAdjacent = 4)
         {
-            Print();
+            MapWaitingArea();
 
             var i = 0;
             while (true)
             {
-                var updated = Points.DeepClone();
-                for (var k = 0; k < Points.Length; k++)
+                var updated = _points.DeepClone();
+                for (var k = 0; k < _points.Length; k++)
                 {
-                    var line = Points[k];
+                    var line = _points[k];
                     for (var j = 0; j < line.Length; j++)
                     {
-                        if (updated[k][j] == ".")
+                        if (!updated[k][j].IsSeat)
                         {
                             continue;
                         }
 
                         var adj = 0;
-                        foreach (var traversel in TraverselCombinations)
+                        foreach (var traversal in _traversalCombinations)
                         {
                             var x = j;
                             var y = k;
                             while (true)
                             {
-                                y += traversel.Y;
-                                if (y < 0 || y >= Points.Length)
+                                y += traversal.Y;
+                                if (y < 0 || y >= _points.Length)
                                 {
                                     break;
                                 }
 
-                                var l = Points[y];
-                                x += traversel.X;
+                                var l = _points[y];
+                                x += traversal.X;
                                 if (x < 0 || x >= line.Length)
                                 {
                                     break;
                                 }
-                                
+
                                 var p = l[x];
-                                if (p == "L")
-                                {
-                                    break;
-                                }
-                                
-                                if (p == "#")
+                                if (p.IsSeatOccupied())
                                 {
                                     adj++;
+                                }
+
+                                if (onlyImmediatelyAdjacent || p.IsSeat)
+                                {
                                     break;
                                 }
                             }
@@ -107,121 +111,52 @@ namespace AdventOfCode.Day11
 
                         if (adj == 0)
                         {
-                            updated[k][j] = "#";
+                            updated[k][j].Occupied = true;
                         }
 
-                        if (adj >= 5)
+                        if (adj >= minAdjacent)
                         {
-                            updated[k][j] = "L";
+                            updated[k][j].Occupied = false;
                         }
                     }
                 }
 
-                var eq = true;
-                for (var j = 0; j < updated.Length; j++)
-                {
-                    var a = string.Join("", updated[j].Select(s => s.ToString()).ToArray());
-                    var b = string.Join("", Points[j].Select(s => s.ToString()).ToArray());
-                    if (a != b)
-                    {
-                        eq = false;
-                    }
-                }
-
-                if (eq)
+                if (!DidAreaChange(updated))
                 {
                     break;
                 }
 
-                Points = updated;
-                Print();
+                _points = updated;
+                MapWaitingArea();
                 i++;
             }
 
-            return Points.Sum(line => line.Count(p => p == "#"));
+            return _points.Sum(line => line.Count(p => p.IsSeatOccupied()));
         }
 
-        public int Run()
+        private bool DidAreaChange(Point[][] updated)
         {
-            Print();
-
-            var i = 0;
-            while (true)
+            for (var j = 0; j < updated.Length; j++)
             {
-                var updated = Points.DeepClone();
-                for (var k = 0; k < Points.Length; k++)
+                var a = string.Join("", updated[j].Select(s => s.ToString()).ToArray());
+                var b = string.Join("", _points[j].Select(s => s.ToString()).ToArray());
+                if (a != b)
                 {
-                    var line = Points[k];
-                    for (var j = 0; j < line.Length; j++)
-                    {
-                        if (updated[k][j] == ".")
-                        {
-                            continue;
-                        }
-
-                        var adj = 0;
-                        foreach (var traversel in TraverselCombinations)
-                        {
-                            var y = k + traversel.Y;
-                            if (y >= 0 && y < Points.Length)
-                            {
-                                var l = Points[y];
-                                var x = j + traversel.X;
-                                if (x >= 0 && x < line.Length)
-                                {
-                                    var p = l[x];
-                                    if (p == "#")
-                                    {
-                                        adj++;
-                                    }
-                                }
-                            }
-                        }
-
-                        if (adj == 0)
-                        {
-                            updated[k][j] = "#";
-                        }
-
-                        if (adj >= 4)
-                        {
-                            updated[k][j] = "L";
-                        }
-                    }
+                    return true;
                 }
-
-                var eq = true;
-                for (var j = 0; j < updated.Length; j++)
-                {
-                    var a = string.Join("", updated[j].Select(s => s.ToString()).ToArray());
-                    var b = string.Join("", Points[j].Select(s => s.ToString()).ToArray());
-                    if (a != b)
-                    {
-                        eq = false;
-                    }
-                }
-
-                if (eq)
-                {
-                    break;
-                }
-
-                Points = updated;
-                Print();
-                i++;
             }
 
-            return Points.Sum(line => line.Count(p => p == "#"));
+            return false;
         }
 
-        public static Grid Parse(string[] input)
+        public static WaitingArea Parse(string[] input)
         {
-            var grid = new Grid();
-            grid.Points = new string[input.Length][];
+            var grid = new WaitingArea();
+            grid._points = new Point[input.Length][];
             for (var i = 0; i < input.Length; i++)
             {
-                grid.Points[i] = input[i].ToCharArray()
-                    .Select(c => c.ToString())
+                grid._points[i] = input[i].ToCharArray()
+                    .Select(c => new Point {IsSeat = c == 'L'})
                     .ToArray();
             }
 
@@ -231,13 +166,13 @@ namespace AdventOfCode.Day11
 
     public static class Extensions
     {
-        public static string[][] DeepClone(this string[][] input)
+        public static Point[][] DeepClone(this Point[][] input)
         {
-            var points = new string[input.Length][];
+            var points = new Point[input.Length][];
             for (var i = 0; i < input.Length; i++)
             {
                 points[i] = input[i]
-                    .Select(c => c)
+                    .Select(c => new Point {IsSeat = c.IsSeat, Occupied = c.Occupied})
                     .ToArray();
             }
 
