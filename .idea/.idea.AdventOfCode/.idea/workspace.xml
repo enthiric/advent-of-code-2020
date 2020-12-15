@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6209caa-6814-4d60-bff7-6f6ae4169c42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AdventOfCode.Day15/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day12/obj/Debug/netcoreapp3.1/AdventOfCode.Day12.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day12/obj/Debug/netcoreapp3.1/AdventOfCode.Day12.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day13/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day13/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day13/bin/Debug/netcoreapp3.1/AdventOfCode.Day13.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day13/bin/Debug/netcoreapp3.1/AdventOfCode.Day13.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day13/bin/Debug/netcoreapp3.1/AdventOfCode.Day13.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day13/bin/Debug/netcoreapp3.1/AdventOfCode.Day13.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day13/obj/Debug/netcoreapp3.1/AdventOfCode.Day13.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day13/obj/Debug/netcoreapp3.1/AdventOfCode.Day13.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day13/obj/Debug/netcoreapp3.1/AdventOfCode.Day13.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day13/obj/Debug/netcoreapp3.1/AdventOfCode.Day13.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day13/obj/Debug/netcoreapp3.1/AdventOfCode.Day13.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day13/obj/Debug/netcoreapp3.1/AdventOfCode.Day13.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day14/obj/Debug/netcoreapp3.1/AdventOfCode.Day14.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day14/obj/Debug/netcoreapp3.1/AdventOfCode.Day14.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day15/bin/Debug/netcoreapp3.1/AdventOfCode.Day15.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day15/bin/Debug/netcoreapp3.1/AdventOfCode.Day15.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day15/bin/Debug/netcoreapp3.1/AdventOfCode.Day15.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day15/bin/Debug/netcoreapp3.1/AdventOfCode.Day15.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day15/obj/Debug/netcoreapp3.1/AdventOfCode.Day15.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day15/obj/Debug/netcoreapp3.1/AdventOfCode.Day15.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day15/obj/Debug/netcoreapp3.1/AdventOfCode.Day15.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day15/obj/Debug/netcoreapp3.1/AdventOfCode.Day15.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day15/obj/Debug/netcoreapp3.1/AdventOfCode.Day15.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day15/obj/Debug/netcoreapp3.1/AdventOfCode.Day15.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode.Day8/obj/Debug/netcoreapp3.1/AdventOfCode.Day8.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +76,6 @@
     <setting file="file://$PROJECT_DIR$/src/AdventOfCode.Day10/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/AdventOfCode.Day4/Passport.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AdventOfCode.Day13/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/73E7CF6F-FF28-45D4-8A5E-FE6056A07783/C/MatchCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/73E7CF6F-FF28-45D4-8A5E-FE6056A07783/B/Match.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/308319D5-31DB-401D-8248-B04560FA2EFD/2B/Skip.cs" root0="SKIP_HIGHLIGHTING" />
@@ -146,10 +156,10 @@
         <option value="$PROJECT_DIR$/src/AdventOfCode.Day14/input.txt" />
         <option value="$PROJECT_DIR$/src/AdventOfCode.Day14/Program.cs" />
         <option value="$PROJECT_DIR$/AdventOfCode.Day13/Program.cs" />
-        <option value="$PROJECT_DIR$/src/AdventOfCode.Day13/Program.cs" />
-        <option value="$PROJECT_DIR$/src/AdventOfCode.Day13/input.txt" />
         <option value="$PROJECT_DIR$/src/AdventOfCode.Day15/input.txt" />
         <option value="$PROJECT_DIR$/src/AdventOfCode.Day15/Program.cs" />
+        <option value="$PROJECT_DIR$/src/AdventOfCode.Day13/input.txt" />
+        <option value="$PROJECT_DIR$/src/AdventOfCode.Day13/Program.cs" />
       </list>
     </option>
   </component>
@@ -168,7 +178,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="RiderTestRunnerUnitTestingPageId" />
   </component>
-  <component name="RunManager" selected=".NET Project.AdventOfCode.Day15">
+  <component name="RunManager" selected=".NET Project.AdventOfCode.Day13">
     <configuration name="AdventOfCode" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/src/AdventOfCode.One/bin/Debug/netcoreapp3.1/AdventOfCode.One.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -306,8 +316,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Project.AdventOfCode.Day15" />
         <item itemvalue=".NET Project.AdventOfCode.Day13" />
+        <item itemvalue=".NET Project.AdventOfCode.Day15" />
         <item itemvalue=".NET Project.AdventOfCode.Day14" />
         <item itemvalue=".NET Project.AdventOfCode.Day12 (1)" />
         <item itemvalue=".NET Project.AdventOfCode.Day12" />
@@ -357,7 +367,8 @@
       <workItem from="1607603927949" duration="211000" />
       <workItem from="1607671578660" duration="12827000" />
       <workItem from="1607778608184" duration="13169000" />
-      <workItem from="1607959473047" duration="12487000" />
+      <workItem from="1607959473047" duration="13060000" />
+      <workItem from="1608033783334" duration="2816000" />
     </task>
     <servers />
   </component>
@@ -392,86 +403,86 @@
       <screen x="0" y="23" width="1680" height="927" />
     </state>
     <state width="1678" height="440" key="DebuggerActiveHint/0.23.1680.927@0.23.1680.927" timestamp="1607068033522" />
-    <state width="1638" height="162" key="GridCell.Tab.0.bottom" timestamp="1608030110606">
+    <state width="1638" height="208" key="GridCell.Tab.0.bottom" timestamp="1608036197942">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="162" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608030110606" />
-    <state width="1638" height="162" key="GridCell.Tab.0.center" timestamp="1608030110605">
+    <state width="1638" height="208" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608036197942" />
+    <state width="1638" height="208" key="GridCell.Tab.0.center" timestamp="1608036197940">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="162" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1608030110605" />
-    <state width="1638" height="162" key="GridCell.Tab.0.left" timestamp="1608030110604">
+    <state width="1638" height="208" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1608036197940" />
+    <state width="1638" height="208" key="GridCell.Tab.0.left" timestamp="1608036197940">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="162" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1608030110604" />
-    <state width="1638" height="162" key="GridCell.Tab.0.right" timestamp="1608030110605">
+    <state width="1638" height="208" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1608036197940" />
+    <state width="1638" height="208" key="GridCell.Tab.0.right" timestamp="1608036197941">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="162" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1608030110605" />
-    <state width="1638" height="381" key="GridCell.Tab.1.bottom" timestamp="1608029420775">
+    <state width="1638" height="208" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1608036197941" />
+    <state width="1638" height="381" key="GridCell.Tab.1.bottom" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.1.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608029420775" />
-    <state width="1638" height="381" key="GridCell.Tab.1.center" timestamp="1608029420775">
+    <state width="1638" height="381" key="GridCell.Tab.1.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.1.center" timestamp="1608032336144">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.1.center/0.23.1680.927@0.23.1680.927" timestamp="1608029420775" />
-    <state width="1638" height="381" key="GridCell.Tab.1.left" timestamp="1608029420774">
+    <state width="1638" height="381" key="GridCell.Tab.1.center/0.23.1680.927@0.23.1680.927" timestamp="1608032336144" />
+    <state width="1638" height="381" key="GridCell.Tab.1.left" timestamp="1608032336144">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.1.left/0.23.1680.927@0.23.1680.927" timestamp="1608029420774" />
-    <state width="1638" height="381" key="GridCell.Tab.1.right" timestamp="1608029420775">
+    <state width="1638" height="381" key="GridCell.Tab.1.left/0.23.1680.927@0.23.1680.927" timestamp="1608032336144" />
+    <state width="1638" height="381" key="GridCell.Tab.1.right" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.1.right/0.23.1680.927@0.23.1680.927" timestamp="1608029420775" />
-    <state width="1638" height="381" key="GridCell.Tab.2.bottom" timestamp="1608029420776">
+    <state width="1638" height="381" key="GridCell.Tab.1.right/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.2.bottom" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.2.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608029420776" />
-    <state width="1638" height="381" key="GridCell.Tab.2.center" timestamp="1608029420775">
+    <state width="1638" height="381" key="GridCell.Tab.2.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.2.center" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.2.center/0.23.1680.927@0.23.1680.927" timestamp="1608029420775" />
-    <state width="1638" height="381" key="GridCell.Tab.2.left" timestamp="1608029420775">
+    <state width="1638" height="381" key="GridCell.Tab.2.center/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.2.left" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.2.left/0.23.1680.927@0.23.1680.927" timestamp="1608029420775" />
-    <state width="1638" height="381" key="GridCell.Tab.2.right" timestamp="1608029420776">
+    <state width="1638" height="381" key="GridCell.Tab.2.left/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.2.right" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.2.right/0.23.1680.927@0.23.1680.927" timestamp="1608029420776" />
-    <state width="1638" height="381" key="GridCell.Tab.3.bottom" timestamp="1608029420777">
+    <state width="1638" height="381" key="GridCell.Tab.2.right/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.3.bottom" timestamp="1608032336146">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.3.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608029420777" />
-    <state width="1638" height="381" key="GridCell.Tab.3.center" timestamp="1608029420776">
+    <state width="1638" height="381" key="GridCell.Tab.3.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608032336146" />
+    <state width="1638" height="381" key="GridCell.Tab.3.center" timestamp="1608032336146">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.3.center/0.23.1680.927@0.23.1680.927" timestamp="1608029420776" />
-    <state width="1638" height="381" key="GridCell.Tab.3.left" timestamp="1608029420776">
+    <state width="1638" height="381" key="GridCell.Tab.3.center/0.23.1680.927@0.23.1680.927" timestamp="1608032336146" />
+    <state width="1638" height="381" key="GridCell.Tab.3.left" timestamp="1608032336145">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.3.left/0.23.1680.927@0.23.1680.927" timestamp="1608029420776" />
-    <state width="1638" height="381" key="GridCell.Tab.3.right" timestamp="1608029420776">
+    <state width="1638" height="381" key="GridCell.Tab.3.left/0.23.1680.927@0.23.1680.927" timestamp="1608032336145" />
+    <state width="1638" height="381" key="GridCell.Tab.3.right" timestamp="1608032336146">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.3.right/0.23.1680.927@0.23.1680.927" timestamp="1608029420776" />
-    <state width="1638" height="381" key="GridCell.Tab.4.bottom" timestamp="1608029420778">
+    <state width="1638" height="381" key="GridCell.Tab.3.right/0.23.1680.927@0.23.1680.927" timestamp="1608032336146" />
+    <state width="1638" height="381" key="GridCell.Tab.4.bottom" timestamp="1608032336147">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.4.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608029420778" />
-    <state width="1638" height="381" key="GridCell.Tab.4.center" timestamp="1608029420777">
+    <state width="1638" height="381" key="GridCell.Tab.4.bottom/0.23.1680.927@0.23.1680.927" timestamp="1608032336147" />
+    <state width="1638" height="381" key="GridCell.Tab.4.center" timestamp="1608032336146">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.4.center/0.23.1680.927@0.23.1680.927" timestamp="1608029420777" />
-    <state width="1638" height="381" key="GridCell.Tab.4.left" timestamp="1608029420777">
+    <state width="1638" height="381" key="GridCell.Tab.4.center/0.23.1680.927@0.23.1680.927" timestamp="1608032336146" />
+    <state width="1638" height="381" key="GridCell.Tab.4.left" timestamp="1608032336146">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.4.left/0.23.1680.927@0.23.1680.927" timestamp="1608029420777" />
-    <state width="1638" height="381" key="GridCell.Tab.4.right" timestamp="1608029420777">
+    <state width="1638" height="381" key="GridCell.Tab.4.left/0.23.1680.927@0.23.1680.927" timestamp="1608032336146" />
+    <state width="1638" height="381" key="GridCell.Tab.4.right" timestamp="1608032336147">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="381" key="GridCell.Tab.4.right/0.23.1680.927@0.23.1680.927" timestamp="1608029420777" />
+    <state width="1638" height="381" key="GridCell.Tab.4.right/0.23.1680.927@0.23.1680.927" timestamp="1608032336147" />
     <state x="440" y="225" key="Rider.ProjectTemplateDialog.Size" timestamp="1608017595336">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
@@ -645,19 +656,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/AdventOfCode.Day15/Program.cs</url>
-          <line>17</line>
-          <properties documentPath="$PROJECT_DIR$/src/AdventOfCode.Day15/Program.cs" initialLine="22">
-            <startOffsets>
-              <option value="423" />
-            </startOffsets>
-            <endOffsets>
-              <option value="441" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="171" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

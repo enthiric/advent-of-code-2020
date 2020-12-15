@@ -24,14 +24,61 @@ namespace AdventOfCode.Day13
                         time++;
                         continue;
                     }
-                    
+
                     arrivals[bus] = time;
                     break;
                 }
             }
-            
+
             var earliest = arrivals.OrderBy(kvp => kvp.Value).First();
             return earliest.Key * (earliest.Value - timestamp);
+        }
+
+        public long Part2(string[] input)
+        {
+            var raw = input[1].Split(",");
+
+            var minutes = 0;
+            var buses = new Dictionary<int, int>();
+
+            foreach (var b in raw)
+            {
+                minutes++;
+                if (b == "x")
+                {
+                    continue;
+                }
+
+                buses[int.Parse(b)] = minutes;
+            }
+
+            var t = 100000000000000;
+            while (true)
+            {
+                var matches = true;
+                var addition = 1;
+                foreach (var bus in buses)
+                {
+                    addition += bus.Key;
+                    
+                    var start = t + bus.Value;
+                    if (start % bus.Key == 0)
+                    {
+                        continue;
+                    }
+
+                    matches = false;
+                }
+
+                if (matches)
+                {
+                    break;
+                }
+
+                t += addition;
+            }
+
+            return t+1;
         }
     }
 
@@ -44,6 +91,7 @@ namespace AdventOfCode.Day13
                 .ToArray();
 
             Console.WriteLine(new Code().Part1(input));
+            Console.WriteLine(new Code().Part2(input));
         }
     }
 }
