@@ -29,7 +29,7 @@ namespace AdventOfCode.Day18
             var input = File
                 .ReadAllLines("input.txt");
 
-            // Console.WriteLine(new Code().Part1(input));
+            Console.WriteLine(new Code().Part1(input));
             Console.WriteLine(new Code().Part2(input));
         }
     }
