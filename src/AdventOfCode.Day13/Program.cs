@@ -36,38 +36,35 @@ namespace AdventOfCode.Day13
 
         public long Part2(string[] input)
         {
-            var raw = input[1].Split(",");
-
-            var minutes = 0;
-            var buses = new Dictionary<int, int>();
-
-            foreach (var b in raw)
+            var raw = input[1].Split(",").ToList();
+            var busses = raw.Where(x => x != "x").Select(int.Parse).ToList();
+            var remainders = new List<int>(busses.Count);
+            
+            for (var i = 0; i < raw.Count; i++)
             {
-                minutes++;
-                if (b == "x")
+                if (raw[i] != "x")
                 {
-                    continue;
+                    remainders.Add(i % busses[remainders.Count]);
                 }
-
-                buses[int.Parse(b)] = minutes;
             }
 
-            var t = 100000000000000;
+            long t = 0;
+            long addition = busses[0];
+
+            var run = 0;
             while (true)
             {
                 var matches = true;
-                var addition = 1;
-                foreach (var bus in buses)
+                for (var i = run + 1; i < busses.Count; i++)
                 {
-                    addition += bus.Key;
-                    
-                    var start = t + bus.Value;
-                    if (start % bus.Key == 0)
+                    if (Calculate(busses[i], t) != remainders[i])
                     {
-                        continue;
+                        matches = false;
+                        break;
                     }
 
-                    matches = false;
+                    addition *= busses[i];
+                    run = i;
                 }
 
                 if (matches)
@@ -78,7 +75,13 @@ namespace AdventOfCode.Day13
                 t += addition;
             }
 
-            return t+1;
+            return t;
+        }
+
+        private int Calculate(int bus, long time)
+        {
+            var left = (int) (time % bus);
+            return left == 0 ? left : bus - left;
         }
     }
 
